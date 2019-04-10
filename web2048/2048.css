@@ -1,0 +1,137 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, verdana,Helvetica, sans-serif;
+  font-size: 20px;
+}
+#container{
+  height: 600px;
+  width: 500px;
+  margin: auto;
+}
+header,footer{
+  text-align: center;
+}
+header div{
+  display: inline-block;
+  padding: 10px;
+}
+header div:first-child{
+  font-size: 150%;
+  font-weight: bold;
+}
+main{
+  height: 410px;
+  width: 410px;
+  margin: 5px auto;
+  background-color: #BCAFA1;
+  border-radius: 5px;
+}
+.lattice{
+  display: inline-block;
+  vertical-align: top;
+  height: 90px;
+  width: 90px;
+  border-radius: 8px;
+  background-color: #CDC1B5;
+  margin: 10px 0px 0px 10px;
+  text-align: center;
+  color: #BCAFA1;
+  /* 禁止用户选择文字 */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  }
+.lattice:hover{
+  cursor: move;
+}
+#btn{
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #BCAFA1;
+  font-size: 20px;
+  color: white;
+  /* 禁止用户选择文字 */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#btn:hover{
+  background-color: #CDC1B5;
+  cursor: pointer;
+}
+aside{
+  font-size: 14px;
+}
+.lattice-2{
+  background-color: #EFE5DB;
+  font-size: 70px;
+}
+.lattice-4{
+  background-color: #EEE1C9;
+  font-size: 70px;
+}
+.lattice-8{
+  background-color: #F2B37A;
+  font-size: 70px;
+}
+.lattice-16{
+  background-color: #F59663;
+  font-size: 65px;
+}
+.lattice-32{
+  background-color: #F67D5F;
+  font-size: 65px;
+}
+.lattice-64{
+  background-color: #F65E38;
+  font-size: 65px;
+}
+.lattice-128{
+  background-color: #FF5640;
+  font-size: 54px;
+}
+.lattice-256{
+  background-color: #FB611F;
+  font-size: 54px;
+}
+.lattice-512{
+  background-color: #FA8828;
+  font-size: 54px;
+}
+.lattice-1024{
+  background-color: #F7B733;
+  font-size: 40px;
+}
+.lattice-2048{
+  background-color: #FAD165;
+  font-size: 40px;
+}
+.lattice-4096{
+  background-color: #F65E38;
+  font-size: 40px;
+}
+.lattice-8192{
+  background-color: #F65E38;
+  font-size: 40px;
+}
+.lattice-16384{
+  background-color: #F65E38;
+  font-size: 30px;
+}
+.lattice-32768{
+  background-color: #F65E38;
+  font-size: 30px;
+}
+.lattice-65536{
+  background-color: #F65E38;
+  font-size: 30px;
+}
