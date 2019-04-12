@@ -4,28 +4,31 @@ body{
   font-family: Arial, verdana,Helvetica, sans-serif;
   font-size: 20px;
 }
-#container{
+.container{
   height: 600px;
   width: 500px;
   margin: auto;
 }
-header,footer{
+.header,.footer{
   text-align: center;
 }
-header div{
+.header div{
   display: inline-block;
   padding: 10px;
 }
-header div:first-child{
+.header div:first-child{
   font-size: 150%;
   font-weight: bold;
 }
-main{
+.main{
   height: 410px;
   width: 410px;
   margin: 5px auto;
   background-color: #BCAFA1;
   border-radius: 5px;
+}
+.main{
+  cursor: move;
 }
 .lattice{
   display: inline-block;
@@ -45,10 +48,7 @@ main{
   -ms-user-select: none;
   user-select: none;
   }
-.lattice:hover{
-  cursor: move;
-}
-#btn{
+.btn{
   border: none;
   outline: none;
   border-radius: 10px;
@@ -64,11 +64,11 @@ main{
   -ms-user-select: none;
   user-select: none;
 }
-#btn:hover{
+.btn:hover{
   background-color: #CDC1B5;
   cursor: pointer;
 }
-aside{
+.aside{
   font-size: 14px;
 }
 .lattice-2{
